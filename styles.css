@@ -1,0 +1,84 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover; /* Ensure the background image covers the whole screen */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    transition: background 0.5s ease-in-out; /* Smooth transition between backgrounds */
+  }
+  
+  /* Default Background */
+  body.sunny {
+    background-image: url('sunny.png');
+  }
+  
+  body.cloudy {
+    background-image: url('clou.png');
+  }
+  
+  body.rainy {
+    background-image: url('Rainy.jpg');
+  }
+  
+  .weather-app {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-bar button {
+    padding: 10px 15px;
+    background-color: #42a5f5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .search-bar button:hover {
+    background-color: #1e88e5;
+  }
+  
+  .weather-info {
+    font-size: 1.2em;
+    color: #444;
+  }
+  
+  .weather-info p {
+    margin: 5px 0;
+  }
+  
